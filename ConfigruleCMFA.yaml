@@ -67,16 +67,16 @@ proxies:
     server: 104.17.3.81
     port: 443
     type: vless
-    uuid: 6f9bb4cf-b137-4e0c-9f04-586e3fbac9bf
+    uuid: 6bc4dbba-cfb0-487a-80cc-4d7df81cc878
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: samudra.basecampsedekahbumi.my.id
+    servername: sg1vpn.jagoanip.my.id
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: samudra.basecampsedekahbumi.my.id
+        Host: sg1vpn.jagoanip.my.id
     udp: true
 
 proxy-groups:
@@ -167,4 +167,5 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
 

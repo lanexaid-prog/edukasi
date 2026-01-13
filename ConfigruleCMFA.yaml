@@ -39,7 +39,7 @@ proxies:
     uuid: 9bef2d33-54f3-499e-8936-3048099aeeaa
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
     servername: samudra.basecampsedekahbumi.my.id
     network: ws
@@ -167,3 +167,4 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+

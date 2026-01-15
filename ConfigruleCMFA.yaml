@@ -81,7 +81,7 @@ proxies:
 
 proxy-groups:
   - name: ID-X
-    type: fallback
+    type: select
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
@@ -90,7 +90,7 @@ proxy-groups:
       - AKUN3
 
   - name: MIX-X
-    type: fallback
+    type: select
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
@@ -167,5 +167,6 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
 
 
